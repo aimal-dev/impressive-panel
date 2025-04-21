@@ -8,7 +8,7 @@ type Props = {
 const RadioPlayer: React.FC<Props> = ({ url }) => {
   return (
     <div  style={{
-        width: '100vw',
+        // width: '100vw',
         height: '100vh',
         backgroundColor: '#000',
         overflow: 'hidden',
@@ -20,7 +20,7 @@ const RadioPlayer: React.FC<Props> = ({ url }) => {
         height="auto"
         url={url}
         playing
-        autoplay={true}
+        autoPlay={true}
         muted={false}
         controls={false}
         config={{
